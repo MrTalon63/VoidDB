@@ -13,7 +13,7 @@ var (
 )
 
 var (
-	StatRead   int64 = 0
-	StatWrite  int64 = 0
-	StatDelete int64 = 0
+	StatRead   uint64 = 0
+	StatWrite  uint64 = 0
+	StatDelete uint64 = 0
 )
