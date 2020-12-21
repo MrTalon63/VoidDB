@@ -34,8 +34,8 @@ Requests per second:    39467.91 [#/sec] (mean)
 Time per request:       0.253 [ms] (mean)
 Time per request:       0.025 [ms] (mean, across all concurrent requests)
 
-# GET test (36 characters payload)
-$ ab -p test.txt -n 1000000 -c 10 http://127.0.0.1:8080/db/test-key
+# GET test (reading same 36 characters of data)
+$ ab -n 1000000 -c 10 http://127.0.0.1:8080/db/test-key
 Requests per second:    39656.23 [#/sec] (mean)
 Time per request:       0.252 [ms] (mean)
 Time per request:       0.025 [ms] (mean, across all concurrent requests)
