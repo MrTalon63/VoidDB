@@ -26,7 +26,7 @@ Basic key-value storage with an HTTP interface. Use at own risk.
 | voiddb_stat_delete     | deletions from the startup |
 
 ### Benchmarks
-Performed on Ryzen 3 3600 system using ApacheBench with 10 concurrent clients.
+Performed on Ryzen 5 3600 system using ApacheBench with 10 concurrent clients.
 ```
 # SET test (36 characters payload)
 $ ab -p test.txt -n 1000000 -c 10 http://127.0.0.1:8080/db/test-key
