@@ -1,6 +1,6 @@
 VoidDB
 ---
-Basic key-value storage with an HTTP interface. Use at own risk.
+Basic in-memory key-value storage with an HTTP interface. Use at own risk.
 
 ### Endpoints
 | Method | URI       | Redis equivalent | Description                                           |
