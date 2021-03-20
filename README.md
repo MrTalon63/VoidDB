@@ -27,7 +27,7 @@ Basic in-memory key-value storage with an HTTP interface. Use at own risk.
 
 ### Benchmarks
 Performed on Ryzen 5 3600 system using ApacheBench with 10 concurrent clients.
-```
+```console
 # SET test (36 characters payload)
 $ ab -p test.txt -n 1000000 -c 10 http://127.0.0.1:8080/db/test-key
 Requests per second:    39467.91 [#/sec] (mean)
